@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+:root {
+    --bleuclair: #3179A7;
+    --pad: 1.5rem;
+    --marg: .9rem;
+    --middle: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.marker {
+    color: var(--bleuclair);
+}
+
+.navbar {
+    flex-basis: 20%;
+    font-weight: bold;
+}
+
+.header {
+    padding: var(--pad) 1rem;
+    box-shadow:  2px 0 20px #888888;
+}
+
+.header h3 {
+    font-weight: bolder;
+    font-size: 21px;
+    margin: 0 var(--marg);
+}
+
+.header nav {
+    margin: 0 var(--marg);
+}
+
+.left {
+    padding: var(--pad);
+    width: var(--middle);
+}
+
+.right {
+    width: var(--middle);
+}
+
+.right .social {
+    height: 35vh;
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+}
+
+.big {
+    font-size: 55px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: lighter;
+    width: 65%;
+}
+
+.big span {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.design {
+    text-align: center;
+    width: 60%;
+}
+
+.design .text {
+    font-weight: 600;
+    margin-bottom: var(--marg);
+}
+
+.action {
+    width: 40%;
+    margin: 2% 0 0 5%;
+}
+
+.action a {
+    background-color: var(--bleuclair);
+    color: whitesmoke;
+    padding: calc(var(--pad) / 3) calc(var(--pad) / 1.1);
+    border-radius: 7px;
+}
+
+
+
+
+
+
+.marg-bottom {
+    margin-bottom: calc(var(--marg)*3);
+}
+
+.align-h{
+    align-items: center;
+}
+
+.align-v{
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btw {
+    justify-content: space-between;
+}
+
+.arnd {
+    justify-content: space-around;
+}
+
+.ucase {
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 1250px) { 
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 768px){
+
+}
