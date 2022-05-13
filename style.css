@@ -95,6 +95,27 @@ a {
 }
 
 
+/* TRAVAUX */
+
+.pad {
+    padding:  var(--pad) calc(var(--pad)*3.2) 0 calc(var(--pad)*3.2);
+}
+
+.title {
+    width: 22%;
+}
+
+.second{
+    width: 35%;
+}
+
+.title p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+}
+
+
+
 
 
 
