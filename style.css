@@ -115,9 +115,13 @@ a {
 }
 
 
+/* A PROPOS */
 
-
-
+.about {
+    text-transform: lowercase;
+    font-size: 25px;
+    margin-left: 95px;
+}
 
 
 .marg-bottom {
@@ -159,6 +163,13 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+
 
 
 
