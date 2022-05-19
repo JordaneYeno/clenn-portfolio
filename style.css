@@ -49,6 +49,11 @@ a {
     margin: 0 var(--marg);
 }
 
+.header nav ul li a:hover {
+    color: var(--bleuclair);
+    cursor: pointer;
+}
+
 .left {
     padding: var(--pad);
     width: 100%;
@@ -83,6 +88,16 @@ a {
     right: 3%;
 }
 
+.social img{
+    transition: transform 350ms;
+    will-change: transform;
+}
+
+.social img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
 .big {
     font-size: 55px;
     font-family: 'Kaushan Script', cursive;
@@ -103,6 +118,10 @@ a {
     color: whitesmoke;
     padding: calc(var(--pad) / 3) calc(var(--pad) / 1.1);
     border-radius: 7px;
+}
+
+.action a:hover {
+    padding: calc(var(--pad) / 3) calc(var(--pad) / .9);
 }
 
 /* FIN DE INDEX */
